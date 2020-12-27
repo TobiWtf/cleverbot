@@ -29,6 +29,7 @@ module.exports = class CleverBot {
     };
 
     async send(message, callback=null) {
+        this._messages.push(message);
         let _res = this._message(message);
         if (callback) {
             callback(await _res);
