@@ -1,6 +1,6 @@
 {
   "name": "cleverbot-api-free",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Free cleverbot wrapper",
   "main": "index.js",
   "scripts": {},
@@ -10,8 +10,7 @@
     "google",
     "requests",
     "free",
-    "md5",
-    "superagent"
+    "md5"
   ],
   "author": "Tobi",
   "repository": {
@@ -22,8 +21,5 @@
     "url": "https://github.com/TobiWtf/cleverbot/issues"
   },
   "homepage": "https://github.com/TobiWtf/cleverbot#readme",
-  "dependencies": {
-    "md5": "^2.3.0",
-    "superagent": "^6.1.0"
-  }
+  "dependencies": {}
 }
